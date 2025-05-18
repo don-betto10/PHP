@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius:80% ;
+    margin-right: 25px;
+}
+
+.imgprod {
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.gym {
+    width: 60px;
+    height: 60px;
+    border-radius:80% ;
+  
+}
+
+.saludo {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.saludo2 {
+    font-family: fantasy;
+    font-size: 80px;
+}
+
+.saludo3 {
+    font-size: smaller;
+    font-family: monospace;
+}
+
+.form-registro {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin:auto;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    box-shadow: 7px 13px 100px  white;
+}
+
+.form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.form.registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-registro a {
+    color: white;
+    text-decoration: none;
+    font-size:small;
+}
+
+.form-registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.kfit-text {
+    text-align: center;
+    color: red;
+}
+
+.kfit-tittle {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    align-self: center;
+    padding: 20px;
+}
+
+
+
+.d-none {
+    display: none;
+    padding-bottom: 5%;
+}
+
+.invalido {
+    border: 2px solid red;
+}
+
+.valido {
+    border: 2px solid green;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.texto-verde {
+    color: green;
+    display: block !important;
+}
